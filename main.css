@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+
+input.compose-textfield {
+  height: 20px !important;
+  width: 200px !important;
+  resize: none !important;
+  border: none !important;
+  color: #14171a !important;
+}
+
+input.compose-textfield:focus {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.hashtag-span {
+  height: 20px !important;
+  color: #bbbbbb !important;
+  padding-right: 5px !important;
+}
+
+.tag-button {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  position: relative !important;
+}
+
+.icon-remove {
+  font-size: 16px !important;
+  position: absolute !important;
+  z-index: 3 !important;
+  right: 12px !important;
+}
+
+.icon-remove:hover {
+  font-size: 18px !important;
+}
+
+i.icon-remove:before {
+  content: url(chrome-extension://__MSG_@@extension_id__/icons/remove.svg) !important;
+}
